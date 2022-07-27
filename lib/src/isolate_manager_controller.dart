@@ -1,4 +1,4 @@
-import 'package:isolate_contactor/isolate_contactor.dart';
+import 'isolate_contactor/isolate_contactor.dart';
 
 class IsolateManagerController<T> implements IsolateContactorController<T> {
   late IsolateContactorController<T> _delegate;

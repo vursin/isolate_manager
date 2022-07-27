@@ -1,0 +1,2 @@
+dart test -p "chrome,vm" test --coverage=coverage
+dart pub global run coverage:format_coverage --report-on=lib --lcov -o coverage/lcov.info -i coverage/test

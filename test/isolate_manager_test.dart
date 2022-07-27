@@ -1,6 +1,9 @@
 import 'package:isolate_manager/isolate_manager.dart';
 import 'package:test/test.dart';
 
+//  dart test
+//  dart test --platform=chrome
+
 void main() {
   test('Test IsolateManager.create: Basic Usage', () async {
     // Create IsolateContactor

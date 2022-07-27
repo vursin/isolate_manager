@@ -6,11 +6,13 @@ homepage: https://github.com/vursin/isolate_manager
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
-dependencies: 
-  isolate_contactor: ^2.0.0
+dependencies:
+  stream_channel: ^2.1.0
 
 dev_dependencies:
   test: ^1.17.12
   lints: ^2.0.0
   js: ^0.6.4
+  coverage: ^1.5.0
+  test_cov_console: ^0.2.2
 
